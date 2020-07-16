@@ -101,11 +101,21 @@ img {
 ==================================== */
 
 @media (min-width: 769px) {
+	body{
+		padding-top: 68px;
+	}
 	.main-nav{
 		float: right;
 		padding-top: 1.25em; /* 20px / 16px */	
 		padding-right: 3.125em; /* 50px / 16px */
 	  }
+	.main-header{
+		width: 100%;
+		position: fixed;
+		box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
+		background-color: #fff;
+		top: 0;
+	}
 	  
 	.main-nav li{
 		display: inline-block;
