@@ -139,7 +139,8 @@ img {
 @media (min-width: 1000px){
 	.col{
 		margin: 0 30px;
-		float: right;
+		padding: 20px;
+		float: left;
 	}
 	.tertiary{
 		width: 26%;
