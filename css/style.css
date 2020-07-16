@@ -35,6 +35,21 @@ a {
 img {
 	max-width: 100%;
 }
+figure{
+	position: relative;
+}
+
+figcaption {
+	font-size: .8em;
+	line-height: 1.2;
+	color: #fff;
+	padding: .9em;	
+	background: rgba(19,43,102, .85);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
 
 /* ================================= 
   Base Layout Styles
@@ -94,6 +109,17 @@ img {
 
 .logo {
 	width: 190px;
+}
+
+.headline {
+	margin-bottom: 0;
+}
+
+.icon-location {
+	width: 35px;
+	position: absolute;
+	top: -15px;
+	right: -15px;
 }
 
 /* ================================= 
