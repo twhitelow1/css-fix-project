@@ -44,6 +44,11 @@ img {
 
 .name {
 	font-size: 1.25em;
+  float: left;
+}
+
+.main-nav{
+  float: right;
 }
 
 .name a,
