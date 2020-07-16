@@ -84,6 +84,7 @@ img {
 	background: #d9e4ea;
 	padding: 2em 0;
 	margin-top: 30px;
+	text-align: center;
 }
 
 /* ---- Page Elements ---- */
@@ -107,9 +108,22 @@ img {
 		float: left;
 		padding-left: 2.5em; /* 40px / 16px */
 	}
-
+	.container{
+		width: 80%;
+		margin: 2em auto;
+	}
+	.col{
+		float: left;
+		margin: 0 20px;
+	}
 	.name{
 		float:left;
+	}
+	.primary{ 
+		width: 40%;
+	}
+	.secondary{
+		width: 40%;
 	}
 
 	/* ---- Float clearfix ---- */
@@ -120,4 +134,28 @@ img {
 		clear: both;
 	}
 
+}
+
+@media (min-width: 1000px){
+	.col{
+		margin: 0 30px;
+		float: right;
+	}
+	.tertiary{
+		width: 26%;
+	}
+	.primary{
+		width: 26%;
+	}
+	.secondary{
+		width: 26%;
+	}
+
+	/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
 }
