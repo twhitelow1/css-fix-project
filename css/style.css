@@ -43,16 +43,10 @@ img {
 /* ---- Navigation ---- */
 
 .name {
-	font-size: 1.25em;
-  float: left;
-}
-
-.main-nav{
-  float: right;
-}
-
-.main-nav li{
-	float: left;
+	font-size: 1.5em;
+	font-weight: 800;
+	padding-left: 1em;
+  	float: left;
 }
 
 .name a,
@@ -75,6 +69,7 @@ img {
 .banner {
 	color: #fff;
 	background: #3acec2;
+	text-align: center;
 }
 
 .main-footer {
@@ -94,8 +89,21 @@ img {
 ==================================== */
 
 @media (min-width: 769px) {
+	.main-header{
+		padding: 25px 50px;
+	}
+	.main-nav{
+		float: right;
+	  }
+	  
+	.main-nav li{
+		float: left;
+		padding-left: 50px;
+	}
 
-
+	.name{
+		float:left;
+	}
 
 	/* ---- Float clearfix ---- */
 
