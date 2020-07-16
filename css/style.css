@@ -47,10 +47,11 @@ img {
 	font-weight: 800;
 	padding-left: 1em;
 	text-align: center;
-  	
 }
 .main-nav{
 	text-align: center;
+	padding-top: 1.5625em; /* 25px / 16px */	
+	padding-right: 3.125em; /* 50px / 16px */
 }
 
 .name a,
@@ -94,7 +95,7 @@ img {
 
 @media (min-width: 769px) {
 	.main-header{
-		padding: 25px 50px;
+		
 	}
 	.main-nav{
 		float: right;
